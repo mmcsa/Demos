@@ -1,0 +1,51 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "West US"
+    },
+    "vmName": {
+      "value": "nkecdtiistest01"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "AvailabilitySetName": {
+      "value": "nkecdtiistestas01"
+    },
+    "VirtualNetworkResourceGroup": {
+      "value": "NKE-CDT-SJS-NET-RG01"
+    },
+    "VirtualNetworkName": {
+      "value": "NKE-CDT-SJS-VNET-01"
+    },
+    "subnetName": {
+      "value": "NKE-CDT-SJ-QATRS"
+    },
+    "staticPrivateIpAddress": {
+      "value": "10.3.2.10"
+    },
+    "newStorageAccountName": {
+      "value": "nkecdttestvmstor0503"
+    },
+    "vmDiagnosticsStorageAccountName": {
+      "value": "nkecdttestdiagstor0503"
+    },
+    "adminUsername": {
+      "value": "mmglblAdmin"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    },
+    "administratorLogin": {
+      "value": "NikeSqlAdmin"
+    },
+    "databaseName": {
+      "value": "cdtdemosqldb"
+    },
+    "timestamp": {
+      "value": "05/03/2016 17:30"
+    }
+  }
+}

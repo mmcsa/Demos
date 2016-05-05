@@ -81,6 +81,7 @@
     },
     "adminPassword": {
       "type": "securestring",
+      "defaultValue": "p4rk3rAdm1n",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
@@ -200,6 +201,7 @@
     },
     "administratorLoginPassword": {
       "type": "securestring",
+      "defaultValue": "p4rk3rSql",
       "metadata": {
         "description": "The password of the admin user of the SQL Server"
       }
